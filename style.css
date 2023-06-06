@@ -1,0 +1,178 @@
+body {
+    
+    flex-direction: column;
+   
+    
+    
+  }
+  
+ 
+  
+  footer {
+    background-color: #1d30449f;
+    color: #fff;
+    padding: 0;
+    margin-top: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+  }
+
+
+/*   */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/Imagenes/790743-Anime-One-Piece-Minimalist-Nico-Robin-1080P.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow-y: hidden;
+
+      
+
+  }
+
+
+
+.text-area {
+    width: 300px;
+    height: 350px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+.button {
+    margin-top: 10px;
+  }
+
+.contenedorpadre{
+    column-count: 2; /* Establece el número de columnas */
+    column-gap: 490px; /* Espacio entre las columnas */
+    
+
+}
+
+
+
+
+    .btn:active {
+      transform: scale(0.9);
+    }
+
+    textarea {
+        background-color: transparent;
+        border: 1px solid #f0eeee;
+        border-radius: 5px;
+        padding: 10px;
+      }
+
+      .container {
+        background-color: rgba(38, 25, 38, 0.5);
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+      }
+      #conteiner2{
+        display: none;
+      }
+      #conteiner3{
+        margin-top: 100px;
+      }
+      
+  
+      .text-area {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 0px solid #ccc;
+      }
+  
+      .contenedorbtn1 {
+        display: flex;
+        justify-content: center;
+      }
+  
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 4px;
+        color: #fff;
+        background-color: #1d3044;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s;
+        margin: 0 5px;
+      }
+
+      #btncopiar{
+        width: 300px;
+      }
+
+      textarea {
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+        font-size: 16px;
+        line-height: 1.5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f7f7f72c;
+        color: #333;
+        resize: none;
+      }
+  
+      textarea:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+      }
+  
+
+
+      
+.imagenboxnada{
+  height: 200px;
+  
+}
+.textonada{
+  color: #fff;
+}
+
+
+
+footer {
+  text-align: right;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  align-items: center; /* Alinea verticalmente al centro */
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.social-links a {
+  margin-left: 10px;
+  
+}
+
+.social-links img {
+  max-height: 20px;
+  
+}
