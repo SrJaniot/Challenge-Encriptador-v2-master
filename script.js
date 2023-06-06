@@ -16,7 +16,7 @@ function mostrarpantallaencriptado (){
     }
     if (document.getElementById('conteiner2').style.display==='flex') {
         swal( {
-            icon: 'Imagenes/nico-robin.gif',
+            icon: './Imagenes/nico-robin.gif',
             title:'Encriptado...',
             timer: 1500,
           });
@@ -48,7 +48,7 @@ function mostrarpantalladesencriptado (){
     }
     if (document.getElementById('conteiner2').style.display==='flex') {
         swal( {
-            icon: 'Imagenes/poneglif.gif',
+            icon: './Imagenes/poneglif.gif',
             title:'Desencriptando...',
             timer: 1500,
           });
